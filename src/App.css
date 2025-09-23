@@ -6,6 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
+.App-container{
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  background-color: #e0c4ba;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
