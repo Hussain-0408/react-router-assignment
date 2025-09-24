@@ -1,5 +1,6 @@
 .error-nestedchail h1 {
     font-size: 70px;
+    color: red;
 }
 
 .error-img img {
@@ -12,24 +13,34 @@
     font-size: 30px;
     font-weight: 50px;
 }
+.error-info button:hover {
+        background-color: rgb(20, 37, 185);
+        transform: scale(1.05); 
+
+    }
+    .error-info button {
+        background-color: brown;
+        transform: scale(1.05); 
+
+    }
+
 
 @media (max-width:786px) {
     .error-childcontainer {
         width: 100%;
     }
+
     .error-img img {
-    width: 150px;
-    height: 150px;
+        width: auto;
+        height: 90px;
+        padding: 2px;
+        /* border: 2px solid red; */
 
-}
-.error-img{
-    border: 1px solid red;
-    padding: 2px;
-    width:50%;
-}
+    }
 
-    .error-information {
-        width: 100%;
+    .error-img {
+        /* border: 1px solid red; */
+        padding: 1px;
     }
 
     .error-nestedchail {
@@ -41,8 +52,9 @@
     .error-information {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: start;
         /* border: 1px solid green; */
+        align-items: start;
         gap: 10px;
     }
 
@@ -51,10 +63,16 @@
         /* border: 1px solid red; */
         font-weight: 50px;
         width: 100%;
-       
+
     }
+
     .error-nestedchail h1 {
-    font-size: 50px;
-}
+        font-size: 40px;
+    }
+
+    .error-info button {
+        height: 40px;
+
+    }
 
 }
