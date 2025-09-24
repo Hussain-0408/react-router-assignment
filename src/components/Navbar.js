@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <div  className="navbar-root container">
 
-      <nav className="navbar container  navbar-expand-lg  navbar-dark navbar-container">
-        <div className="container-fluid">
+      <nav className="navbar   navbar-expand-lg   navbar-dark navbar-container">
+        <div className="container-fluid p-0">
           <NavLink className="navbar-brand d-flex  w-25  align-items-center" to="/">
             <img
               src={logo}

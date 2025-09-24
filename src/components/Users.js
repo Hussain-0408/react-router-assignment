@@ -15,7 +15,7 @@ function Users() {
   ]
 
   return (
-    <div className='user-container container  w-100 h-100 ' >
+    <div className='user-container container-fluid   w-100 h-100 ' >
       
       <div className='user-childcontainer   d-flex  align-items-center justify-content-center ' >
         <div className=' user-childcontainer1 justify-content-center  shadow-lg  bg-white flex-column rounded-3 p-4 d-flex align-items-center '>

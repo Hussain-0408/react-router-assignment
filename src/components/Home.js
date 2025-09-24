@@ -37,7 +37,7 @@ function Home() {
       navigate(url)
   }
   return (
-    <div className=" homeroot-container container w-100">
+    <div className=" homeroot-container container-fluid gx-0 w-100">
 
       <div 
         className="home-container d-flex flex-column justify-content-center align-items-center text-white text-center"
@@ -45,7 +45,7 @@ function Home() {
           backgroundImage: `url(${img1})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "80vh",
+          height: "90vh",
         }}
       >
         <h1 className="display-4 fw-bold">Welcome to Our Website</h1>

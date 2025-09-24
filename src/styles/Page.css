@@ -10,12 +10,14 @@
     background-color: #e4b6a5;
 }
 .error-container{
-    height: 100vh;
-    margin-top: 100px;
+    min-height: 100vh;
+    /* margin-top: 100px; */
+    background-color: #e4b6a5;
 }
 
 .error-nestedchail{
-     background-color: #fcfaf9;
+     background-color: #f6f4f3;
+     margin-top: 100px;
 }
 .error-info h5 {
     font-size: 30px;

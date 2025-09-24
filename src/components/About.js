@@ -6,15 +6,15 @@ import '../styles/About.css';
 
 function About() {
   return (
-    <div className=' about-container w-100 h-100'>
-      <div className='image-container  '>
+    <div className=' about-container  container-fluid p-0 m-0  '>
+      <div className='image-container '>
         <img src={img8} alt='' />
       </div>
       <div className="overlay d-flex flex-column justify-content-center align-items-center">
         <h1 className=' text-black fs-1  text-center p-4'> About Us</h1>
       </div>
       <div className=" my-4">
-        <div className="row align-items-center g-4">
+        <div className="row align-items-center gx-0">
           <div className="col-md-6">
             <div className="p-3  ms-6">
              
@@ -35,7 +35,7 @@ function About() {
       </div>
 
        <div className=" my-3">
-        <div className="row align-items-center g-4">
+        <div className="row align-items-center g-4 gx-0">
           <div className="col-md-6 text-center">
             <img src={img10} alt="about" className="w-100 img-fluid rounded shadow-lg" />
           </div>

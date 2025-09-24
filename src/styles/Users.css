@@ -1,13 +1,15 @@
 .user-childcontainer1{
     width: 30%;
     /* height: 50%; */
-    /* margin-top: 160px; */
+    margin-top: 160px;
 }
 .user-container{
-    height: 100vh;
+    min-height: 100vh;
      background-color: #e0c4ba;
      width: 100vw;
+     
 }
+
 .user-image img{
     width: 200px;
     height: 200px;
