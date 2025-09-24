@@ -1,28 +1,3 @@
-// import React from 'react';
-// import img1 from '../components/image/img1.jpg';
-// import img9 from '../components/image/img9.jpg';
-// import '../styles/Home.css';
-
-
-// function Home() {
-//   return (
-//     <div className='w-100'>
-//       <div className='app-image d-flex w-100 justify-content-center align-items-center' style={{ backgroundImage: `url(${img1})` }}>
-//         <img src={img9} alt='' className='w-50 border' />
-//         <div className='d=flex bg-white border  w-100 p-1  text-center'>
-          
-//         </div>
-//       </div>
-//       <div>
-
-//       </div>
-//     </div>
-//   )
-// }
-
-// export default Home
-
-
 
 import React from 'react';
 import img1 from '../components/image/img1.jpg'; 
@@ -37,7 +12,7 @@ function Home() {
       navigate(url)
   }
   return (
-    <div className=" homeroot-container container-fluid gx-0 w-100">
+    <div className=" homeroot-container container-fluid gx-0 ">
 
       <div 
         className="home-container d-flex flex-column justify-content-center align-items-center text-white text-center"
@@ -56,7 +31,7 @@ function Home() {
         <div className="row align-items-center g-4">
           <div className="col-md-6">
             <h2>Our Services</h2>
-            <p className="" >
+            <p className=" ms-1" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
               Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

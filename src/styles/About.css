@@ -2,21 +2,17 @@
      background-color: #e0c4ba;
    min-height: 100vh;
     min-width: 100%;
-    margin: 0 !important;
-    padding: 0 !important;
-    margin-top: 100px !important;
-    
+   
 }
 .image-container img{
     height: 600px;
     width: 100%;
 }
-.about-container .row {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
+@media (max-width:786px) {
+  .about-container{
+    width: 100%;
+  }
+  
 }
-.about-container .col-md-6 {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
+
 
