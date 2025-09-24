@@ -8,12 +8,12 @@ function PageNotfound() {
   const goback = useNavigate();
   return (
     <div className='error-container container w-100 h-100'>
-      <div className='error-childcontainer d-flex align-items-center justify-content-center  w-100 h-100'>
+      <div className='error-childcontainer d-flex  justify-content-center  w-100 mt-4'>
         <div className='error-nestedchail shodow-lg  w-100   d-flex  align-items-center flex-column'>
           <div className='error-heading w-100 text-center  p-3 '>
             <h1 >404 - Page Not Found</h1>
           </div>
-          <div className='error-information   w-100 p-2 text-center  justify-content-arround align-items-start   d-flex '>
+          <div className='error-information   w-100 p-2 text-center  justify-content-arround align-items-start   d-flex flex-column '>
             <div className='error-img w-100 '>
               <img src={error}  alt='' className='rounded-4'   />
             </div>
@@ -23,7 +23,7 @@ function PageNotfound() {
                   <h5 className='p-3 '> Oops! The page You're looking for doesn't exist.</h5> 
                 </div>
                 <div className='w-100'>
-                  <button className='p-2 rounded-3  text-white fs-5' onClick={()=>goback('/')}>Go to Home Page</button>
+                  <button className='p-2 rounded-3   text-white fs-5' onClick={()=>goback('/')}>Go to Home Page</button>
                   </div>
               </div>
             </div>
