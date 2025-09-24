@@ -34,7 +34,7 @@ function Navbar() {
 
 
           <div className="collapse navbar-collapse  w-50 justify-content-center" id="navbarNav">
-            <ul className="navbar-nav  justify-content-around align-item-center w-50 gap-5">
+            <ul className="navbar-nav  justify-content-around align-item-center w-50 gap-4">
               <li className="nav-item">
                 <NavLink className="nav-link " to="/">Home</NavLink>
               </li>
