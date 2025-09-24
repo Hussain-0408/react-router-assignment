@@ -6,6 +6,7 @@ function Home() {
     <div>
         <div className='app-image' style={{ backgroundImage: `url(${img1})` }}>
       </div>
+      <h1>hello althaf hussaian</h1>
     </div>
   )
 }

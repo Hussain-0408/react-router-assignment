@@ -2,6 +2,9 @@
     width: 30%;
     /* height: 50%; */
 }
+.user-container{
+    height: 100vh;
+}
 .user-image img{
     width: 200px;
     height: 200px;
