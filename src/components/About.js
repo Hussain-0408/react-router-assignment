@@ -29,7 +29,7 @@ function About() {
             </div>
           </div>
           <div className="col-md-6 text-center ">
-            <img src={img9} alt="about" className="w-75 img-fluid rounded shadow-lg" />
+            <img src={img9} alt="about" className="w-100 img-fluid rounded shadow-lg" />
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ function About() {
        <div className=" my-3">
         <div className="row align-items-center g-4">
           <div className="col-md-6 text-center">
-            <img src={img10} alt="about" className="w-75 img-fluid rounded shadow-lg" />
+            <img src={img10} alt="about" className="w-100 img-fluid rounded shadow-lg" />
           </div>
           <div className="col-md-6">
             <div className="p-3 ">

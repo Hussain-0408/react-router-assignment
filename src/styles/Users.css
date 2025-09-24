@@ -4,6 +4,7 @@
 }
 .user-container{
     height: 100vh;
+     background-color: #e0c4ba;
 }
 .user-image img{
     width: 200px;
