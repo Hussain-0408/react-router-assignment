@@ -9,13 +9,13 @@ function PageNotfound() {
   return (
     <div className='error-container container w-100 h-100'>
       <div className='error-childcontainer d-flex align-items-center justify-content-center  w-100 h-100'>
-        <div className='error-nestedchail shodow-lg  w-100  bg-white d-flex  align-items-center flex-column'>
+        <div className='error-nestedchail shodow-lg  w-100   d-flex  align-items-center flex-column'>
           <div className='error-heading w-100 text-center  p-3 '>
             <h1 >404 - Page Not Found</h1>
           </div>
-          <div className='error-information   w-75 p-2 text-center  justify-content-arround align-items-start   d-flex flex-row'>
-            <div className='error-img w-50   '>
-              <img src={error} alt=''   />
+          <div className='error-information   w-100 p-2 text-center  justify-content-arround align-items-start   d-flex '>
+            <div className='error-img w-100 '>
+              <img src={error}  alt='' className='rounded-4'   />
             </div>
             <div className='error-info w-100 d-flex  justify-content-center  align-items-center  text-center'>
               <div className=' w-100 d-flex flex-column '>

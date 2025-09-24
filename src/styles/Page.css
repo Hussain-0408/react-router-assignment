@@ -6,9 +6,13 @@
 .error-img img {
     width: 300px;
     height: 300px;
-
+    border-radius: 0.8rem;
+    background-color: #e4b6a5;
 }
 
+.error-nestedchail{
+     background-color: #e4b6a5;
+}
 .error-info h5 {
     font-size: 30px;
     font-weight: 50px;
@@ -25,7 +29,7 @@
     }
 
 
-@media (max-width:786px) {
+@media (max-width:800px) {
     .error-childcontainer {
         width: 100%;
     }
@@ -41,6 +45,7 @@
     .error-img {
         /* border: 1px solid red; */
         padding: 1px;
+        text-align: center;
     }
 
     .error-nestedchail {
@@ -50,12 +55,15 @@
     }
 
     .error-information {
-        width: 100%;
+        width: 100vw;
         display: flex;
-        justify-content: start;
+        /* justify-content: start; */
         /* border: 1px solid green; */
-        align-items: start;
-        gap: 10px;
+        /* align-items: start; */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* gap: 10px; */
     }
 
     .error-info h5 {
