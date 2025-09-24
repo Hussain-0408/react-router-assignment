@@ -8,8 +8,8 @@ function PageNotfound() {
   const goback = useNavigate();
   return (
     <div className='error-container container w-100 h-100'>
-      <div className='error-childcontainer d-flex  justify-content-center  w-100 mt-4'>
-        <div className='error-nestedchail shodow-lg  w-100   d-flex  align-items-center flex-column'>
+      <div className='error-childcontainer d-flex  justify-content-center align-items-center w-100 mt-4'>
+        <div className='error-nestedchail shodow-lg  w-100   d-flex justify-content-center  align-items-center flex-column'>
           <div className='error-heading w-100 text-center  p-3 '>
             <h1 >404 - Page Not Found</h1>
           </div>

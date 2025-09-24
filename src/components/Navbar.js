@@ -6,9 +6,9 @@ import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div className='m-0 w-100 '>
+    <div  className="navbar-root container">
 
-      <nav className="navbar shadow-lg  navbar-expand-lg  navbar-dark custom-navbar">
+      <nav className="navbar container  navbar-expand-lg  navbar-dark navbar-container">
         <div className="container-fluid">
           <NavLink className="navbar-brand d-flex  w-25  align-items-center" to="/">
             <img

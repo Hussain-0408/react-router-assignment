@@ -11,10 +11,11 @@
 }
 .error-container{
     height: 100vh;
+    margin-top: 100px;
 }
 
 .error-nestedchail{
-     background-color: #e4b6a5;
+     background-color: #fcfaf9;
 }
 .error-info h5 {
     font-size: 30px;

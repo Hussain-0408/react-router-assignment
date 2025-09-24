@@ -18,7 +18,7 @@ function About() {
           <div className="col-md-6">
             <div className="p-3  ms-6">
              
-              <p className="text-muted w-100 " style={{ lineHeight: "1.8" }}>
+              <p className="text w-100 " style={{ lineHeight: "1.8" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -42,7 +42,7 @@ function About() {
           <div className="col-md-6">
             <div className="p-3 ">
              
-              <p className="text-muted w-100" style={{ lineHeight: "1.8" }}>
+              <p className="text w-100" style={{ lineHeight: "1.8" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
