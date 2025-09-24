@@ -2,15 +2,15 @@ import React from 'react';
 import '../styles/Navbar.css'
 import logo from './image/logo.jpg'
 
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <div>
-      <nav className="navbar shadow-lg navbar-expand-lg fixed-top navbar-dark custom-navbar">
+    <div className='m-0  '>
+      <nav className="navbar shadow-lg navbar-expand-lg  navbar-dark custom-navbar">
         <div className="container-fluid">
         
-          <Link className="navbar-brand d-flex  w-25  align-items-center" to="/">
+          <NavLink className="navbar-brand d-flex  w-25  align-items-center" to="/">
             <img 
               src= {logo}
               alt="Logo"
@@ -19,9 +19,7 @@ function Navbar() {
               className="d-inline-block align-text-top me-3 rounded-3"
             />
             <span className="school-name">My App</span>
-          </Link>
-
-          {/* Toggler for mobile */}
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
@@ -34,14 +32,14 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          {/* Navbar Links */}
+          
           <div className="collapse navbar-collapse  w-50 justify-content-center" id="navbarNav">
             <ul className="navbar-nav  justify-content-around align-item-center w-50 gap-5">
               <li className="nav-item">
-                <Link className="nav-link " to="/">Home</Link>
+                <NavLink className="nav-link " to="/">Home</NavLink>
               </li>
-              <li className="nav-item"><Link className="nav-link" to="/About">About</Link></li>
-                    <li className="nav-item"><Link className="nav-link" to="/user">User Info</Link></li>
+              <li className="nav-item"><NavLink className="nav-link" to="/About">About</NavLink></li>
+                    <li className="nav-item"><NavLink className="nav-link" to="/users">User Info</NavLink></li>
             </ul>
           </div>
         </div>

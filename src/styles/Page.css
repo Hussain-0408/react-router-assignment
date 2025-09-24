@@ -1,0 +1,60 @@
+.error-nestedchail h1 {
+    font-size: 70px;
+}
+
+.error-img img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.error-info h5 {
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+@media (max-width:786px) {
+    .error-childcontainer {
+        width: 100%;
+    }
+    .error-img img {
+    width: 150px;
+    height: 150px;
+
+}
+.error-img{
+    border: 1px solid red;
+    padding: 2px;
+    width:50%;
+}
+
+    .error-information {
+        width: 100%;
+    }
+
+    .error-nestedchail {
+        width: 100%;
+        display: flex;
+        /* border: 1px solid green; */
+    }
+
+    .error-information {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        /* border: 1px solid green; */
+        gap: 10px;
+    }
+
+    .error-info h5 {
+        font-size: 15px;
+        /* border: 1px solid red; */
+        font-weight: 50px;
+        width: 100%;
+       
+    }
+    .error-nestedchail h1 {
+    font-size: 50px;
+}
+
+}

@@ -9,8 +9,34 @@
 .App-container{
   width: 100vw;
   height: 100vh;
-  margin: 0px;
+  overflow-y: hidden;
+  overflow-x: hidden;
   background-color: #e0c4ba;
+  font-family: "var(--bs-body-font-family)";
+
+}
+.app-image {
+  background-size: cover;    
+  background-position: center;  
+  background-repeat: no-repeat; 
+  height: 100vh; 
+}
+
+
+@media (max-width:786px) {
+  .app-image{
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .App-container{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {

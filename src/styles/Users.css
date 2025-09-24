@@ -1,0 +1,23 @@
+.user-childcontainer1{
+    width: 30%;
+    /* height: 50%; */
+}
+.user-image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 3rem;
+}
+.user-work p{
+    font-size: 12px;
+}
+.user-information h5{
+    font-size: 16px;
+}
+@media (max-width:786px) {
+    .user-childcontainer1{
+        border: 1px solid red;
+        width: 90%;
+       
+    }
+    
+}
