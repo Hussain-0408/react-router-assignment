@@ -9,17 +9,18 @@ import Users from './components/Users';
 
 
 
+
 function App() {
+
   return (
     <div className="App-container container ">
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/About' element={<About />} />
+        <Route path='/About:id' element={<About />} />
         <Route path='/Users' element={<Users />} />
         <Route path='*' element={<PageNotfound />} />
       </Routes>
-     
 
     </div>
   );
